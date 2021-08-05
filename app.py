@@ -10,3 +10,7 @@ def index():
 @app.route("/review_status")
 def review():
 	return "dev branch has been reviewed"
+
+@app.route("/new_route")
+def review():
+	return "this is a new route"
