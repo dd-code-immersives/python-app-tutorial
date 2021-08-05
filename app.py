@@ -12,5 +12,5 @@ def review():
 	return "dev branch has been reviewed"
 
 @app.route("/new_route")
-def review():
+def new_route():
 	return "this is a new route"
